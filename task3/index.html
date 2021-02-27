@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <h4>Количество отмеченных на странице университетов: <span id="checkCounter"></span></h4>
+        <div class="form-wrapper">
+            <input type="text" id="search" placeholder="Enter country name" value="">
+            <button id="send">Отправить</button>
+            <button id="reset">Сброс</button>
+            <button id="load">Посмотреть сохранненый список</button>
+             <button id="resetSavedList">Сбросить и удалить сохранненый список</button>
+        </div>
+        <p>List of countries for testing: United States, United Kingdom, Kuwait </p>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Number</th> <th> Web pages</th>
+                         <th>Name</th> <th>Domains</th>
+                         <th>Code</th> <th>Country</th>
+                         <th>State-province</th> <th>Сохранить в мой список</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <a href="../start.html" class="back">Go Back</a>
+   
+    <script src="./script.js"></script>
+</body>
+</html>
